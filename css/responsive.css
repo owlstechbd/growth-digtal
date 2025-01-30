@@ -1,0 +1,116 @@
+@media screen and (max-width: 1380px){
+    .card-bottom {
+        position: absolute;
+        bottom: -59px;
+        left: 0;
+    }
+    .main-heding{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .main-heding{
+        font-size: 40px;
+    }
+    .hero-content p{
+        font-size: 25px;
+    }
+    .project-box{
+        width: 100%;
+    }
+    .project-box:nth-child(1){
+        width: 100%;
+    }
+    .project-box:nth-child(2){
+        width: 100%;
+    }
+    .project-box:nth-child(3){
+        width: 100%;
+    }
+    .project-box:nth-child(4){
+        width: 100%;
+    }
+    .project-box:nth-child(5){
+        width: 100%;
+    }
+    .project-box:nth-child(6){
+        width: 100%;
+    }
+    .faq-continer2{
+        flex-direction: column;
+    }
+    .faq-left{
+        width: 100%;
+    }
+    .faq-right{
+        width: 100%;
+    }
+    .service-img img{
+        width: 100%;
+    
+    }
+    .card-bottom{
+        bottom: -42px;
+    }
+    .step-box{
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .main-heding{
+        font-size: 40px;
+    }
+    .service-center {
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .project-content{
+        width: 100%;
+    }
+    .faq-left{
+        text-align: center;
+    }
+    .pre-footer h2{
+        font-size: 40px;
+    }
+    .design-studio{
+        padding: 50px 0;
+    }
+    .service-step{
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 450px){
+    .project-box{
+        min-height: 600px;
+        padding: 0;
+    }
+    .project-image{
+        max-width: 100%;
+    }
+    .project-image img{
+        width: 100%;
+    }
+    .faq-question{
+        font-size: 18px;
+    }
+    .footer-content{
+        flex-direction: column-reverse;
+    }
+    .footer-content .logo{
+        margin-bottom: 20px;
+    }
+    .footer-content{
+        text-align: center;
+    }
+    .card-bottom{
+        bottom: -32px;
+    }
+    .love-content h2{
+        text-align: center;
+        font-size: 40px;
+    }
+}
