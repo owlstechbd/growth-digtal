@@ -76,11 +76,22 @@ p {
 }
 .global-btn a{ 
 	border-radius: 25px;
-	padding: 14px 35px;
+	padding: 12px 30px;
+	font-size: 17px;
 	background: #000;
 	color: #fff;
 }
-
+.global-btn button{ 
+	border-radius: 25px;
+	padding: 9px 30px;
+	font-size: 17px;
+	border: none;
+	background: #000;
+	color: #fff;
+}
+.logo a img{
+	width: 133px;
+}
 .hero{
 	width: 100%;
 	height: 75vh;
@@ -89,6 +100,8 @@ p {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	background: url(../images/hero-background.png) center center no-repeat;
+	background-size: cover;
 }
 .hero-video{
 	position: absolute;
@@ -104,12 +117,17 @@ p {
 	font-size: 54px;
 	font-family: 'SF Pro Display blod';
 }
+.hero-content h1{
+	color: #000000;
+	margin: 0;
+}
 .hero-content p{
 	font-size: 28px;
 	max-width: 619px;
+	color: #000000;
 	margin: 0 auto;
 	line-height: 32px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 .service{
 	padding: 80px 0 0;
@@ -120,18 +138,21 @@ p {
 	text-align: center;
 	margin: 0 auto;
 }
+.service-center h2{
+	color: #000000;
+}
 .service-center p{
 	font-size: 28px;
 	max-width: 600px;
 	margin: 0 auto;
 	line-height: 32px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 .service-center a {
 	display: inline-block;
 	border: 1px #000 solid;
 	border-radius: 25px;
-	padding: 13px 30px;
+	padding: 10px 30px;
 	color: #000;
 	text-decoration: none;
 	position: relative;
@@ -286,11 +307,13 @@ p {
 }
 .project-content p{
 	font-size: 20px;
-	color: #000;
+	color: #000000;
 }
 .project-content h2{
-	font-weight: 600!important;
-	color: #000;
+	font-family: 'SF Pro Display medium';
+	font-weight: 500!important;
+	font-size: 40px;
+	color: #000000;
 }
 .project-icon {
     position: absolute;
@@ -343,12 +366,18 @@ p {
 	background: #F7FCFF;
 	padding: 70px 30px;
 	border-radius: 20px;
+	margin-bottom: 30px;
 }
 .faq-left{
-	width: 30%;
+	width: 40%;
 }
 .faq-right{
 	width: 40%;
+}
+.faq-left h2{
+	color: #000000;
+	font-family: 'SF Pro Display blod';
+	font-size: 50px;
 }
 .faq-container {
 	
@@ -370,7 +399,6 @@ p {
 	background: transparent;
 	justify-content: space-between;
 	align-items: center;
-	font-weight: 500;
 }
 .faq-answer {
 	max-height: 0;
@@ -395,7 +423,13 @@ p {
 .faq-question.active::after {
 	content: '-';
 }
-
+button.faq-question.active {
+    font-family: 'SF Pro Display blod';
+    font-weight: 600;
+}
+.gray-faq{
+	background: #F9F9F9;
+}
 footer{
 	background: #D0EDFB;
 	padding: 20px 0;
@@ -417,7 +451,16 @@ footer{
 	background: #fff;
 }
 .service-hero{
+	height: 65vh;
 	background: #fff;
+}
+.service-hero .hero-content p{
+	margin-top: 10px;
+	max-width: 580px;
+}
+.motion-hero .hero-content p{
+	margin-top: 10px;
+	max-width: 748px;
 }
 .design-studio{
 	width: 100%;
@@ -465,10 +508,12 @@ footer{
 	margin: 0 auto;
 }
 .service-step h2{
+	max-width: 1117px;
+	font-size: 54px;
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'SF Pro Display blod';
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 .step-box h3{
 	margin: 15px 0;
@@ -479,6 +524,13 @@ footer{
 .step-box{
 	padding-right: 35px;
 }
+.space-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.step-box img{
+	height: 46px;
+}
 .why-love{
 	padding: 100px 0;
 	background: #eeeded;
@@ -486,6 +538,9 @@ footer{
 .love-container{
 	width: 85%;
 	margin: 0 auto;
+}
+.love-content{
+	padding-right: 40px;
 }
 .love-content h2{
 	margin-bottom: 50px;
@@ -501,24 +556,11 @@ footer{
 	
 }
 .love-box p span{
-	font-family: 'SF Pro Display medium';
-	position: relative;
+	font-family: 'SF Pro Display blod';
 	font-weight: 600;
-	
+	position: relative;
 }
-.love-box p span::before{
-	content: "";
-	position: absolute;
-	left: -23px;
-	top: 7px;
-	width: 8px;
-	height: 8px;
-	background: #212121;
-	border-radius: 100%;
-}
-.projectgoal p span::before{
-display: none;
-}
+
 .projectgoal img{
 	margin-right:15px;
 }
@@ -534,7 +576,7 @@ display: none;
 	align-items: center;
 }
 .footer-up{
-	padding: 100px 0;
+	padding: 150px 0;
 	background-position: center center;
 	background-size: cover!important;
 	background-repeat: no-repeat;
@@ -551,12 +593,13 @@ display: none;
 }
 
 
-.footer-btn a {
+.footer-btn button {
 	display: inline-block;
 	background: #fff;
 	border-radius: 25px;
 	padding: 13px 30px;
 	color: #000;
+	border: none;
 	text-decoration: none;
 	position: relative;
 	overflow: hidden; 
@@ -564,14 +607,14 @@ display: none;
 	transition: all 0.3s ease; 
   }
   
-  .footer-btn a:hover {
+  .footer-btn button:hover {
 	color: #fff; /* Change text color on hover */
 	background-color: #000; /* Add background color */
 	transform: translateY(-3px); /* Slight lift effect */
   }
   
   /* Fancy hover effect */
-  .footer-btn a::before {
+  .footer-btn button::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -583,19 +626,25 @@ display: none;
 	transition: all 0.4s ease;
   }
   
-  .footer-btn a:hover::before {
+  .footer-btn button:hover::before {
 	left: 0; /* Slide in the gradient */
   }
   .core-nav{
 	background: #A2E8DB;
   }
   .project-hero{
+	height: 75vh;
+	display: flex;
+	align-items: center;
 	padding: 100px 0;
+	
+  }
+  .core-hero{
 	background: linear-gradient(355.75deg, #E5F2F1 5.01%, #97E6D7 96.45%);
-
   }
   .project-hero-content h1{
 	font-size: 70px;
+	font-family: 'SF Pro Display blod';
   }
   .project-hero-content p{
 	font-size: 25px;
@@ -625,7 +674,7 @@ display: none;
 	background: #000;
 	color: #fff;
 	border: none;
-	padding: 13px 35px;
+	padding: 12px 35px;
 	border-radius: 25px;
 }
 .core-container{
@@ -720,3 +769,235 @@ display: none;
 	padding: 100px 0;
 }
 
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 525px;
+    max-width: 90%;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.popup-content h3 {
+    margin-top: 0;
+    font-size: 43px;
+}
+.popup-content p {
+    margin-top: 0;
+    font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.popup-content input[type="number"],
+.popup-content input[type="text"],
+.popup-content input[type="email"],
+.popup-content select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    color: #000;
+    border: none;
+    border-bottom: 1px #D9D9D9 solid;
+    font-family: inherit;
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+   
+}
+
+/* Special styling for iOS Safari for the select element */
+.popup-content select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 24px;
+    /* Ensure there's space for the dropdown arrow */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4.5 8'%3E%3Cpath fill='none' stroke='%23000' stroke-width='.75' d='M.75 1l3 3-3 3'/%3E%3C/svg%3E");
+    /* Custom dropdown arrow */
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 8px;
+}
+
+/* Ensure this style works on all iOS devices */
+select:focus {
+    outline: none;
+    /* Remove the default outline on focus */
+    border-bottom: 2px solid #000;
+    /* Custom focus style */
+}
+
+.popup-content input::placeholder {
+    color: #12100B80;
+}
+
+.popup-content input:focus {
+    outline: none;
+}
+.popup-content select:focus {
+    outline: none!important;
+}
+
+.popup-content select {
+    color: #12100B80!important;
+}
+
+select:focus,
+select:valid {
+	outline: none;
+}
+
+.popup-content input[type="checkbox"] {
+    margin-right: 10px;
+
+}
+
+.popup-content input[type="checkbox"]:checked {
+    background-color: #000;
+}
+
+
+/* Base styles for the checkbox */
+.trem input[type="checkbox"] {
+    -webkit-appearance: none;
+    /* Ensure iOS support */
+    -moz-appearance: none;
+    appearance: none;
+    width: 24px;
+    /* Base size */
+    height: 24px;
+    /* Base size */
+    border: 2px solid #555;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: white;
+    /* Ensure a default background */
+    touch-action: manipulation;
+    /* Improve touch interaction */
+}
+
+/* Style the checked state */
+.trem input[type="checkbox"]:checked {
+    background-color: #000;
+    /* Custom background color when checked */
+    border-color: #000;
+}
+
+/* Add the checkmark when checked */
+.trem input[type="checkbox"]:checked::before {
+    content: '\2714';
+    /* Unicode for checkmark */
+    display: flex;
+    /* Flexbox for centering */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    /* Base font size */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 24px;
+    /* Base line-height */
+    pointer-events: none;
+    /* Ensure the checkmark doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t block clicks */
+}
+
+/* Optional: Focus state to make the checkbox stand out when focused */
+.trem input[type="checkbox"]:focus {
+    outline: none;
+    
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .trem input[type="checkbox"] {
+        width: 20px;
+        /* Adjust size for tablets and smaller screens */
+        height: 20px;
+        /* Adjust size for tablets and smaller screens */
+    }
+
+    .trem input[type="checkbox"]:checked::before {
+        font-size: 14px;
+        /* Adjust font size for tablets and smaller screens */
+        line-height: 20px;
+        /* Adjust line-height for tablets and smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .trem input[type="checkbox"] {
+        width: 18px;
+        /* Further adjust size for mobile screens */
+        height: 18px;
+        /* Further adjust size for mobile screens */
+    }
+
+    .trem input[type="checkbox"]:checked::before {
+        font-size: 12px;
+        /* Adjust font size for mobile screens */
+        line-height: 18px;
+        /* Adjust line-height for mobile screens */
+    }
+}
+
+
+
+
+
+.popup-content .close-button {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.trem {
+	margin-top: 15px;
+	margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.trem a {
+    color: #000;
+    
+}
+
+#popupForm input[type="submit"] {
+    background:#000000;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.white-footer{
+	background: #F9F9F9;
+}

@@ -41,7 +41,7 @@
 			<h1 class="main-heding">Simplifying every step to go live</h1>
 			<p>Transforming ideas into stunning websites and apps that stand out and deliver results.</p>
 			<div class="global-btn">
-				<a href="#">Get Started</a>
+				<a href="#" class="openPopup">Get Started</a>
 			</div>
 		</div>
 	</section>
@@ -102,14 +102,13 @@
 
 	<section class="service-step">
 		<div class="step-container">
-			<h2>Turning your ideas into impactful designs,
-				step by step</h2>
+			<h2>From ideation to execution, we partner with you on every step of the journey</h2>
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<div class="step-box">
 						<img src="images/app-web-development/ic-1.png" alt="">
 						<h3>Plan</h3>
-						<p>Create wireframes and visuals that align with your goals.</p>
+						<p>Define objectives, timeline, and project scope collaboratively.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -143,20 +142,20 @@
 				<div class="col-lg-7">
 					<div class="love-content">
 						<h2 class="main-heding">Your success is the core of everything we build</h2>
-						<div class="love-box">
-							<p><span>User-Focused </span></p>
+						<div class="love-box projectgoal">
+							<p><img src="images/check.png" alt=""><span>User-Focused </span></p>
 							<p>We design with your audience in mind for better engagement.</p>
 						</div>
-						<div class="love-box">
-							<p><span>Transparent Workflow  </span></p>
+						<div class="love-box projectgoal">
+							<p><img src="images/check.png" alt=""><span>Transparent Workflow  </span></p>
 							<p>Clear communication and updates at every stage of your project.</p>
 						</div>
-						<div class="love-box">
-							<p><span>Proven Expertise </span></p>
+						<div class="love-box projectgoal">
+							<p><img src="images/check.png" alt=""><span>Proven Expertise </span></p>
 							<p>Trusted by clients across industries for reliable outcomes.</p>
 						</div>
-						<div class="love-box">
-							<p><span>Scalable Solutions </span></p>
+						<div class="love-box projectgoal">
+							<p><img src="images/check.png" alt=""><span>Scalable Solutions </span></p>
 							<p>Building systems that grow as your business expands.</p>
 						</div>
 					</div>
@@ -178,9 +177,9 @@
 
 	<section class="faq">
 		<div class="nav-container">
-			<div class="faq-continer2">
+			<div class="faq-continer2 gray-faq">
 				<div class="faq-left">
-					<h2 class="main-heding">Questions?</h2>
+					<h2>Frequently asked questions</h2>
 				</div>
 				<div class="faq-right">
 					<div class="faq-container">
@@ -191,39 +190,27 @@
 							</div>
 						</div>
 						<div class="faq-item">
-							<button class="faq-question">How long does it take to design and develop a website or app?</button>
+							<button class="faq-question">What’s your pricing structure?</button>
 							<div class="faq-answer">
-								<p>The timeline varies depending on complexity but typically ranges from a few weeks to a few months.</p>
+								<p>Our pricing depends on the project scope and complexity. Get in touch for a tailored quote.</p>
 							</div>
 						</div>
 						<div class="faq-item">
-							<button class="faq-question">Do you provide custom design and development solutions?</button>
+							<button class="faq-question">Do you work with startups?</button>
 							<div class="faq-answer">
-								<p>Yes, we tailor solutions based on your specific business needs.</p>
+								<p>Absolutely! We’ve helped startups launch with impactful web and app solutions.</p>
 							</div>
 						</div>
 						<div class="faq-item">
-							<button class="faq-question">What industries do you work with?</button>
+							<button class="faq-question">How involved will I be in the process?</button>
 							<div class="faq-answer">
-								<p>Yes, we tailor solutions based on your specific business needs.</p>
+								<p>Very involved! We value your feedback to ensure the solution matches your expectations.</p>
 							</div>
 						</div>
 						<div class="faq-item">
-							<button class="faq-question">Will my website or app be mobile-friendly and responsive?</button>
+							<button class="faq-question">Do you handle branding alongside development?</button>
 							<div class="faq-answer">
-								<p>Yes, we tailor solutions based on your specific business needs.</p>
-							</div>
-						</div>
-						<div class="faq-item">
-							<button class="faq-question">Do you offer post-launch support and maintenance?</button>
-							<div class="faq-answer">
-								<p>Yes, we tailor solutions based on your specific business needs.</p>
-							</div>
-						</div>
-						<div class="faq-item">
-							<button class="faq-question">How much does it cost to design and develop a website or app?</button>
-							<div class="faq-answer">
-								<p>Yes, we tailor solutions based on your specific business needs.</p>
+								<p>Yes, our team creates cohesive branding and design strategies to complement development.</p>
 							</div>
 						</div>
 					</div>
@@ -231,17 +218,18 @@
 			</div>
 		</div>
 	</section>
+	
 
 	<div class="footer-up" style="background: url(images/app-web-development/web-footer.png);">
 		<div class="pre-footer">
 			<h2>Ready to start your digital journey?</h2>
 			<div class="footer-btn">
-				<a href="#">Request a demo</a>
+				<button class="openPopup">Request a demo</button>
 			</div>
 		</div>
 	</div>
 
-	<footer>
+	<footer class="white-footer">
 		<div class="nav-container">
 			<div id="footer-daynamic"></div>
 		</div>
@@ -249,6 +237,8 @@
 
 
 
+	<!-- popup -->
+	<div id="popupGoabl"></div>
 
 
 	<!-- jquary-cdn-link -->
@@ -267,6 +257,8 @@
 	 <script src="js/logoSlider.js"></script>
 	<!-- project -->
 	 <script src="js/project.js"></script>
+	 	<!-- popup-gobal -->
+	<script src="js/popup-gobal.js"></script>
 	<!-- footer-daynamic -->
 	 <script src="js/footer-daynamic.js"></script>
 	<!-- main.js -->

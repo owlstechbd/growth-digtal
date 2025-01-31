@@ -2,10 +2,10 @@
 const mainMenu = `
 <div class="nav-main">
     <div class="logo">
-        <a href="index.html"><img src="images/logo.svg" alt=""></a>
+        <a href="index.html" ><img src="images/logo.svg" alt=""></a>
     </div>
     <div class="global-btn">
-        <a href="#">Get Started</a>
+        <button class="openPopup">Get Started</button>
     </div>
 </div>
 

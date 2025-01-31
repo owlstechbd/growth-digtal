@@ -10,7 +10,7 @@ const project = `
 						</div>
 
 						<div class="project-image">
-							<img src="images/fitverse.png" alt="">
+							<img src="images/fitverse.svg" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Fitverse</h2>
@@ -61,7 +61,7 @@ const project = `
 						</div>
 
 						<div class="project-image">
-							<img src="images/sawift-craft.svg" alt="">
+							<img src="images/sawift-craft.png" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Swift Craft</h2>
