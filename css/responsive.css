@@ -6,12 +6,32 @@
     }
 
 }
+@media screen and (max-width: 1100px){
+    .hero-left-img img {
+        width: 349px;
+    }
+}
 @media screen and (max-width: 1000px){
     .main-heding{
         font-size: 40px;
     }
+    .hero-left-img{
+        position: relative;
+    }
+    .hero{
+        padding: 150px 0 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-left-img{
+        margin-top: 30px;
+    }
     .hero-content p{
         font-size: 25px;
+    }
+    .hero-content p{
+        max-width:600px;
     }
     .project-box{
         width: 100%;
@@ -56,9 +76,33 @@
         margin-bottom: 30px;
     }
 }
+@media screen and (max-width: 830px){
+    .hero {
+        padding: 150px 15px 30px;
+    }
+    .partner-logo img {
+        max-width: 85%;
+    }
+}
 @media screen and (max-width: 600px){
     .main-heding{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .hero-left-img img {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .hero {
+        padding: 180px 15px 40px;
+    }
+    .hero-content p{
+        font-size: 18px;
+        margin-top: 7px;
+        line-height: 20px;
+    }
+    .service-center p{
+        font-size: 18px;
+        line-height: 20px;
     }
     .service-center {
         width: 95%;
@@ -67,6 +111,7 @@
     }
     .project-content{
         width: 100%;
+        padding: 0 15px;
     }
     .faq-left{
         text-align: center;
@@ -79,6 +124,18 @@
     }
     .service-step{
         padding: 50px 0;
+    }
+    .partner-logo img {
+        max-width: 91%;
+    }
+    .faq-continer2{
+        padding: 50px 15px;
+    }
+    .faq-question{
+        padding-left: 0;
+    }
+    .faq-answer.open{
+        padding-left: 0;
     }
 }
 @media screen and (max-width: 450px){
@@ -110,5 +167,8 @@
     .love-content h2{
         text-align: center;
         font-size: 40px;
+    }
+    .service{
+        padding: 50px 0 0;
     }
 }
