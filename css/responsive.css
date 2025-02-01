@@ -88,11 +88,16 @@
     .main-heding {
         font-size: 29px;
     }
-    .hero-left-img img {
+    .hero-left-img {
         width: 100%;
+        text-align: center;
+    }
+    .hero-left-img img {
+        width: 90%;
+        margin: 0 auto;
     }
     .hero {
-        padding: 150px 15px 40px;
+        padding: 130px 15px 40px;
     }
     .hero-content p{
         font-size: 18px;
@@ -135,6 +140,20 @@
     }
     .faq-answer.open{
         padding-left: 0;
+    }
+    .project-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .project-icon i{
+        font-size: 18px;
+        margin-top: 6px;
+    }
+    .project-box{
+        height: 500px;
+    }
+    footer{
+        padding-bottom: 0;
     }
 }
 @media screen and (max-width: 450px){

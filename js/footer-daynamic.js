@@ -1,6 +1,6 @@
 const footer = `
   <div class="footer-content">
-				<div>
+				<div class="footer-icone">
 					<p>Follow Us :</p>
 					<ul>
 						<li><a href="#"><img src="images/linkedin.svg" alt=""></a></li>

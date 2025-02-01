@@ -411,6 +411,7 @@ p {
 	border: none;
 	width: 100%;
 	text-align: left;
+	color: #000000;
 	font-size: 20px;
 	display: flex;
 	background: transparent;
@@ -1022,7 +1023,9 @@ select:valid {
 .white-footer{
 	background: #F9F9F9;
 }
-
+.footer-icone{
+	display: none;
+}
 @media screen and (max-width: 1600px){
 	.main-heding{
 		font-size: 40px;
@@ -1033,8 +1036,12 @@ select:valid {
 		line-height: 25px;
 	}
 	.global-btn a{
-		padding: 11px 30px;
-		font-size: 14px;
+		padding: 9px 25px;
+		font-size: 12px;
+		border: none;
+		background: #000;
+		color: #fff;
+		
 	}
 	.service-center p{
 		font-size: 20px;
@@ -1043,8 +1050,8 @@ select:valid {
 		margin-bottom: 15px;
 	}
 	.service-center a{
-		padding: 7px 30px;
-		font-size: 14px;
+		padding: 6px 25px;
+        font-size: 12px;
 	}
 	.partner-logo img{
 		max-width: 60%;

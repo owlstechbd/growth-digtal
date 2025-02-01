@@ -10,7 +10,7 @@ const project = `
 						</div>
 
 						<div class="project-image">
-							<img src="images/fitverse.svg" alt="">
+							<img src="images/fitverse2.png" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Fitverse</h2>
@@ -27,7 +27,7 @@ const project = `
 						</div>
 
 						<div class="project-image">
-							<img src="images/core42.svg" alt="">
+							<img src="images/core42.png" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Core 42</h2>
