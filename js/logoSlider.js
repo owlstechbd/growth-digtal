@@ -1,5 +1,5 @@
 const logoSlider = `
-    	<section class="logo-slider">
+
 		<div class="logo-container">
 			<div class="carousel-track">
 
@@ -33,7 +33,7 @@ const logoSlider = `
 
 			</div>
 		</div>
-	</section>
+
 
 `
 document.getElementById('logo-slider').innerHTML = logoSlider
