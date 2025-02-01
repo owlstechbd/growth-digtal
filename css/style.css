@@ -806,9 +806,8 @@ footer{
 
 .popup-content {
     background: #fff;
-    padding: 40px;
-    border-radius: 20px;
     width: 525px;
+	height: 650px;
     max-width: 90%;
     position: relative;
     margin-top: 50px;
@@ -1087,5 +1086,23 @@ select:valid {
 	}
 	.hero-left-img img {
 		width: 400px;
+	}
+	.service-hero .hero-content p {
+		max-width: 400px;
+	}
+	.service-step h2{
+		font-size: 40px;
+	}
+	.love-content h2 {
+		margin-bottom: 40px;
+	}
+	.pre-footer h2{
+		font-size: 50px;
+	}
+	.project-hero-content h1{
+		font-size: 50px;
+	}
+	.project-hero-content p{
+		font-size: 20px;
 	}
 }

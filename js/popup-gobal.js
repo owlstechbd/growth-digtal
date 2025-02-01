@@ -3,29 +3,29 @@ const popupGoabl = `
  <div id="popupForm" class="popup-overlay  popupControl">
 	<div class="popup-content">
 		<span class="close-button">&times;</span>
-		<h3 >Share your details</h3>
-        <p>Our team will get in touch to explore how we can support your growth journey</p>
-		<form id="form">
-			<input type="text" id="name" name="name" required placeholder="Your Name">
-			<input type="email" id="email" name="email" required placeholder="Your Email Id">
-			<input type="number" id="number" name="Phone number" required placeholder="Your Phone Number">
-			<select name="" id="">
-				<option value="Job Role" selected>Choose Category eg : Design Studio</option>
-				<option value="Job Role">Development</option>
-				<option value="Job Role">Motion Lab</option>
-			</select>
-            <input type="text" id="Company Name" name="Company Name" required placeholder="Company Name">
 
-		
-
-			<label class="trem">
-				<input type="checkbox" id="terms" name="terms" required checked>
-				I agree to the  the <a href="#">privacy policy</a>
-			</label>
-			<!-- Hidden input to store the button name -->
+			
+				<iframe
+	src="https://api.leadconnectorhq.com/widget/form/MCci7LCDTmzHUwy5qaNO"
+	style="width:100%;height:100%;border:none;border-radius:0px"
+	id="inline-MCci7LCDTmzHUwy5qaNO" 
+	data-layout="{'id':'INLINE'}"
+	data-trigger-type="alwaysShow"
+	data-trigger-value=""
+	data-activation-type="alwaysActivated"
+	data-activation-value=""
+	data-deactivation-type="neverDeactivate"
+	data-deactivation-value=""
+	data-form-name="GC digital"
+	data-height="626"
+	data-layout-iframe-id="inline-MCci7LCDTmzHUwy5qaNO"
+	data-form-id="MCci7LCDTmzHUwy5qaNO"
+	title="GC digital"
+		>
+  </iframe>
 			<input type="hidden" id="buttonName" name="buttonName" />
-			<input type="submit" id="submitBtn1" value="Submit Now"></input>
-		</form>
+			
+	
 	</div>
 </div>
 
