@@ -12,7 +12,7 @@ const footer = `
 				</div>
 				<div>
 					<div class="logo">
-						<img src="images/logo.svg" alt="">
+						<a href="index.html"><img src="images/logo.svg" alt=""></a>
 					</div>
 				</div>
 			</div>

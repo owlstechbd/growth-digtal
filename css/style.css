@@ -61,7 +61,7 @@ p {
 .nav{
 	background: #D4EDFE;
 	width: 100%;
-	padding: 15px 0;
+	padding: 20px 0;
 	position: fixed;
 	z-index: 99;
 }
@@ -76,32 +76,31 @@ p {
 }
 .global-btn a{ 
 	border-radius: 25px;
-	padding: 12px 30px;
-	font-size: 17px;
+	padding: 11px 30px;
+	font-size: 16px;
 	background: #000;
 	color: #fff;
 }
 .global-btn button{ 
 	border-radius: 25px;
-	padding: 9px 30px;
-	font-size: 17px;
+	padding: 8px 30px;
+	font-size: 16px;
 	border: none;
 	background: #000;
 	color: #fff;
 }
 .logo a img{
-	width: 133px;
+	width: 110px;
 }
 .hero{
 	width: 100%;
-	height: 75vh;
+	height: 74vh;
 	display: flex;
 	overflow: hidden;
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background: url(../images/hero-background.png) center center no-repeat;
-	background-size: cover;
+	background: #D4EDFE;
 }
 .hero-video{
 	position: absolute;
@@ -114,7 +113,7 @@ p {
 	text-align: center;
 }
 .main-heding{
-	font-size: 54px;
+	font-size: 50px;
 	font-family: 'SF Pro Display blod';
 }
 .hero-content h1{
@@ -122,12 +121,12 @@ p {
 	margin: 0;
 }
 .hero-content p{
-	font-size: 28px;
+	font-size: 25px;
 	max-width: 619px;
 	color: #000000;
 	margin: 0 auto;
 	line-height: 32px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .service{
 	padding: 80px 0 0;
@@ -142,17 +141,17 @@ p {
 	color: #000000;
 }
 .service-center p{
-	font-size: 28px;
+	font-size: 25px;
 	max-width: 600px;
 	margin: 0 auto;
 	line-height: 32px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .service-center a {
 	display: inline-block;
 	border: 1px #000 solid;
 	border-radius: 25px;
-	padding: 10px 30px;
+	padding: 8px 27px;
 	color: #000;
 	text-decoration: none;
 	position: relative;
@@ -183,17 +182,18 @@ p {
   .service-center a:hover::before {
 	left: 0; /* Slide in the gradient */
   }
-  
-.service-img{
-	margin-top: 20px;
-	
+  .service-img img{
+	width: 55%;
+  }
+.motion-lab-serviveImage img{
+	width: 50%;
 }
 .service-bg{
 	background: #F7FCFF;
 }
 .logo-slider{
 	background: #F4F9FC;
-	padding: 70px 0;
+	padding: 25px 0;
 }
 .logo-container{
 	width: 90%;
