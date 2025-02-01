@@ -88,6 +88,16 @@
     .main-heding {
         font-size: 29px;
     }
+    .service-step h2 {
+        font-size: 29px;
+    }
+    .step-container {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .love-content h2{
+        font-size: 29px;
+    }
     .hero-left-img {
         width: 100%;
         text-align: center;
@@ -156,6 +166,32 @@
     footer{
         padding-bottom: 0;
     }
+    .why-love{
+        padding: 50px 0;
+    }
+    .love-container {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .faq-left h2{
+        font-size: 29px;
+    }
+    .pre-footer h2{
+        font-size: 29px;
+    }
+    .project-hero-content h1{
+        font-size: 29px;
+    }
+    .project-hero-content p {
+        font-size: 18px;
+    }
+    .core-42 .footer-btn button {
+        background: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 35px;
+        border-radius: 25px;
+    }
 }
 @media screen and (max-width: 450px){
     .project-box{
@@ -183,10 +219,7 @@
     .card-bottom{
         bottom: -32px;
     }
-    .love-content h2{
-        text-align: center;
-        font-size: 40px;
-    }
+    
     .service{
         padding: 50px 0 0;
     }

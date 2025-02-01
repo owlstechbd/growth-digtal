@@ -1105,4 +1105,9 @@ select:valid {
 	.project-hero-content p{
 		font-size: 20px;
 	}
+	.footer-btn button{
+		font-size: 12px;
+		padding: 8px 25px;
+	}
+	.project-hero-content h1{font-size: 40px;}
 }
