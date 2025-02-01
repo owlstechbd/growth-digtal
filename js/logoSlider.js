@@ -5,7 +5,7 @@ const logoSlider = `
 
 				<div class="partner-logo"><img src="images/logo/1.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/2.svg" alt=""></div>
-				<div class="partner-logo"><img src="images/logo/3.svg" alt=""></div>
+				<div class="partner-logo"><img src="images/logo/3.png" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/4.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/5.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/6.svg" alt=""></div>
@@ -14,7 +14,7 @@ const logoSlider = `
 
 				<div class="partner-logo"><img src="images/logo/1.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/2.svg" alt=""></div>
-				<div class="partner-logo"><img src="images/logo/3.svg" alt=""></div>
+				<div class="partner-logo"><img src="images/logo/3.png" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/4.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/5.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/6.svg" alt=""></div>
@@ -23,7 +23,7 @@ const logoSlider = `
 				<div class="partner-logo"><img src="images/logo/1.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/1.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/2.svg" alt=""></div>
-				<div class="partner-logo"><img src="images/logo/3.svg" alt=""></div>
+				<div class="partner-logo"><img src="images/logo/3.png" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/4.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/5.svg" alt=""></div>
 				<div class="partner-logo"><img src="images/logo/6.svg" alt=""></div>

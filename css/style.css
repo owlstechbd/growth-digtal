@@ -1026,6 +1026,12 @@ select:valid {
 .footer-icone{
 	display: none;
 }
+.project-image.project-small1 {
+	max-width: 340px;
+}
+.project-image.project-small2 {
+	max-width: 400px;
+}
 @media screen and (max-width: 1600px){
 	.main-heding{
 		font-size: 40px;

@@ -95,6 +95,7 @@
     .hero-left-img img {
         width: 90%;
         margin: 0 auto;
+        padding-left: 20px;
     }
     .hero {
         padding: 130px 15px 40px;
@@ -158,7 +159,7 @@
 }
 @media screen and (max-width: 450px){
     .project-box{
-        min-height: 600px;
+        min-height: 580px;
         padding: 0;
     }
     .project-image{
@@ -189,9 +190,18 @@
     .service{
         padding: 50px 0 0;
     }
+    .project-image.project-small2 {
+        max-width: 100%;
+    }
+    .project-image.project-small1 {
+        max-width: 302px;
+    }
 }
 @media screen and (max-width: 381px){
     .main-heding {
         font-size: 27px;
+    }
+    .project-image.project-small1 {
+        max-width: 96%;
     }
 }

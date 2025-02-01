@@ -44,7 +44,7 @@ const project = `
 						</div>
 
 						<div class="project-image">
-							<img src="images/aizap.svg" alt="">
+							<img src="images/aizap.png" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Aizap</h2>
@@ -77,8 +77,8 @@ const project = `
 							<i class="fa-solid fa-arrow-right"></i>
 						</div>
 
-						<div class="project-image">
-							<img src="images/pal.svg" alt="">
+						<div class="project-image project-small1">
+							<img src="images/pal.png" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Therapy Pal</h2>
@@ -88,14 +88,14 @@ const project = `
 
 				</div><!-- project-box -->
 
-				<div class="project-box">
+				<div class="project-box ">
 					<a href="techbot.html">
 						<div class="project-icon">
 							<i class="fa-solid fa-arrow-right"></i>
 						</div>
 
-						<div class="project-image">
-							<img src="images/techbot.svg" alt="">
+						<div class="project-image project-small2">
+							<img src="images/techbot.png" alt="">
 						</div>	
 						<div class="project-content">
 							<h2>Techbot</h2>
