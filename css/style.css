@@ -1069,4 +1069,10 @@ select:valid {
 	.faq-item{
 		padding: 10px 0;
 	}
+	.hero-left-img {
+		bottom: -30%;
+	}
+	.hero-left-img img {
+		width: 400px;
+	}
 }
