@@ -85,8 +85,8 @@
     }
 }
 @media screen and (max-width: 600px){
-    .main-heding{
-        font-size: 30px;
+    .main-heding {
+        font-size: 29px;
     }
     .hero-left-img img {
         width: 100%;
@@ -169,5 +169,10 @@
     }
     .service{
         padding: 50px 0 0;
+    }
+}
+@media screen and (max-width: 381px){
+    .main-heding {
+        font-size: 27px;
     }
 }
